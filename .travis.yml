@@ -15,8 +15,8 @@ install:
   - conda info -a
   - conda config --add channels 'intel'
   - conda create --name ase --file requirements.txt
+  - conda activate ase
 
 script:
-  - conda activate ase
   - cd PtAu
   - python PtAu.py
