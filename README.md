@@ -7,15 +7,12 @@ Requires an installation of the Anaconda Python distribution
 
 ## Examples
 
-### Setup
-Create the conda environment (first run only):
+### Initial Setup
+Create the conda environment and install dependencies:
 ```
-conda env create -f environment.yml
-```
-
-Enter the environment:
-```
+conda create -n ase -f conda-requirements.txt
 conda activate ase
+pip install -r pip-requirements.txt
 ```
 
 ### PtAu Example
