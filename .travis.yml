@@ -12,6 +12,7 @@ install:
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
   - conda info -a
+  - conda config --add channels 'intel'
   - conda create --name ase --file requirements.txt
 
 script:
