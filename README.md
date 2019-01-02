@@ -3,16 +3,16 @@
 ## Summary
 
 Testing the capabilities of ASE
-Requires an installation of the Anaconda Python distribution
+
+Uses a local setup of ASE via pip, in a Conda environment
 
 ## Examples
 
 ### Initial Setup
-Create the conda environment and install dependencies:
+
+Enter the environment:
 ```
-conda create -n ase -f conda-requirements.txt
 conda activate ase
-pip install -r pip-requirements.txt
 ```
 
 ### PtAu Example
